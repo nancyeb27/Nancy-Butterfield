@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-    background: pink ;
+    background: rgb(109, 60, 75);
     font-size: 18px;
     line-height: 34px;
     font-family: 'Dosis','Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -166,7 +166,7 @@ footer {
     padding: 30px 0;
     margin-top: -102px;
     border-top: 8px solid #bc4f5e;
-    background: #cb5382;
+    background: #bc4f5e;
     color: #470a0a;
 }
 
