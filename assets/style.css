@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-    background: url('../images/pink_rice.png');
+    background: pink ;
     font-size: 18px;
     line-height: 34px;
     font-family: 'Dosis','Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -120,7 +120,7 @@ nav a:hover {
     height: auto;
     margin-top: 10px;
     float: left;
-    margin-right: 25px;
+    margin-right: 10px;
 }
 
 /* sidebar */
@@ -173,11 +173,11 @@ footer {
 /* portfolio */
 
 .work {
-    width: 274px;
+    width: 250px;
     overflow: auto;
     position: relative;
     float: left;
-    margin: 20px 0 25px;
+    margin: 20px 10px 20px;
 }
 
 .work:nth-child(even){ 

@@ -7,7 +7,6 @@
     <title>Nancy Butterfield - Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="assets/style.css" />
 </head>
 
@@ -27,8 +26,8 @@
     <div id="main-container" class="container">
         <section class="main-section">
             <h1>Contact</h1>
-
-            <form id="contact-form">
+            <form method="POST" action="https://formspree.io/nancyeb27@gmail.com" id="contact-form">
+            
                 <ul>
                     <li>
                         <label for="contactName">Name</label>
@@ -57,7 +56,7 @@
                 <a href="https://github.com/nancyeb27" target="_blank">
                     <img src="assets/images/GitHubLogo.png" class="social" alt="Github" />
                 </a>
-                <a href="https://www.linkedin.com/in/nancyeb27/" target="_blank">
+                <a href="https://www.linkedin.com/in/nancybutterfield/" target="_blank">
                     <img src="assets/images/linkedinLogo.png" class="social" alt="LinkedIn" />
                 </a>
             </div>
@@ -71,32 +70,7 @@
     </footer>
 
 
-    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
-    <script>
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyDgcbXX9KomP8rYqSATB6dn2NBgGmffFX8",
-            authDomain: "portfolio-contact-60d7a.firebaseapp.com",
-            databaseURL: "https://portfolio-contact-60d7a.firebaseio.com",
-            projectId: "portfolio-contact-60d7a",
-            storageBucket: "",
-            messagingSenderId: "713445473274"
-        };
-        firebase.initializeApp(config);
-        var db = firebase.database();
-        var contactRef = db.ref("/contact");
-        var form = document.getElementById('contact-form');
-        form.addEventListener('submit', formSubmit);
-        function formSubmit(e) {
-            e.preventDefault();
-            contactRef.push({
-                name: document.getElementById('contactName').value,
-                email: document.getElementById('contactEmail').value,
-                message: document.getElementById('contactMessage').value
-            })
-            form.reset()
-        }
-    </script>
+    
 </body>
 
 </html>
