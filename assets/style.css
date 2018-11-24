@@ -203,6 +203,18 @@ footer {
     background: #bc4f5e;
     color: #fff;
 }
+.work p { 
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    line-height: 20px;
+    border-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: 300;
+    background: #bc4f5e;
+    color: #fff;
+}
 
 /* animation, commented out because it's obnoxious */
 /*.work:hover {
