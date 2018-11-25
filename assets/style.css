@@ -207,11 +207,12 @@ footer {
     width: 100%;
     position: absolute;
     bottom: 5px;
-    line-height: 20px;
+    line-height: 18px;
     border-bottom: 0;
     margin-bottom: 0;
     text-align: center;
     font-weight: 300;
+    font-size: 15px;
     background: #bc4f5e;
     color: #fff;
 }
