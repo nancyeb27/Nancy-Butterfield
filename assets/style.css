@@ -207,6 +207,7 @@ footer {
     width: 100%;
     position: absolute;
     bottom: 5px;
+    font-family: 'Passion One', 'Georgia', Times, 'Times New Roman', serif;
     line-height: 18px;
     border-bottom: 0;
     margin-bottom: 0;
@@ -214,7 +215,7 @@ footer {
     font-weight: 300;
     font-size: 15px;
     background: #bc4f5e;
-    color: #fff;
+    color: rgb(109, 60, 75);
 }
 
 /* animation, commented out because it's obnoxious */
